@@ -1,5 +1,5 @@
 async function loadData() {
-    const url = "https://drive.google.com/uc?export=download&id=1AQDZtW6_kZ4NojgraxvYA8cmPT3Uuf3U";
+    const url = encodeURI("https://downloader.disk.yandex.ru/disk/12afd6dd3da932e47e130f6598aab076cfea3652f68d1288f59980413210548f/6a370b94/8lfkAcRSkLFh6OIUOOHfWLNuVZhFDF6RLgmOa3zukL2AcsxprLG9IJHcfZikZNvKCNep_1lx7f9hrfHKcH2Ylg%3D%3D?uid=0&filename=main_data%2B_words_data.csv&disposition=attachment&hash=247a0LwcHjG1lUWVZxkvDWklHFYUaeEd6vVOIhwzN0D39h4DRDLdREpOq8YXehn2q/J6bpmRyOJonT3VoXnDag%3D%3D%3A&limit=0&content_type=text%2Fplain&owner_uid=549705275&fsize=143231798&hid=03764fb6cc0ce18c64219fca5bb74147&media_type=data&tknv=v3&is_direct_zip_experiment=1");
 
     console.log("Загружаю CSV...");
 
