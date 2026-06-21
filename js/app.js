@@ -1,5 +1,5 @@
 async function loadData() {
-    const url = encodeURI("https://downloader.disk.yandex.ru/disk/77f4d4d3f3c0d1c4ff3df03ca04aeead55d2bc1a058368ac062321efad8949a4/6a382eaf/8lfkAcRSkLFh6OIUOOHfWLNuVZhFDF6RLgmOa3zukL2AcsxprLG9IJHcfZikZNvKCNep_1lx7f9hrfHKcH2Ylg%3D%3D?uid=0&filename=main_data%2B_words_data.csv&disposition=attachment&hash=247a0LwcHjG1lUWVZxkvDWklHFYUaeEd6vVOIhwzN0D39h4DRDLdREpOq8YXehn2q/J6bpmRyOJonT3VoXnDag%3D%3D%3A&limit=0&content_type=text%2Fplain&owner_uid=549705275&fsize=143231798&hid=03764fb6cc0ce18c64219fca5bb74147&media_type=data&tknv=v3&is_direct_zip_experiment=1");
+    const url = "https://github.com/Elfdevv/dashboard-migration/releases/download/v1.0.0/main_data+_words_data.csv";
 
     console.log("Загружаю CSV...");
 
